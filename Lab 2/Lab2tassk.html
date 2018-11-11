@@ -1,0 +1,240 @@
+<html>
+	<head>
+		<title>Lab Task</title>
+			<style type="text/css">
+				#topbar{
+					margin:0px auto;
+					color:white;
+					background-image: line-through(30deg, #003cb3,#00ccff);
+					text-align: center;
+					font-size: 30px;
+					padding: 20px;
+				
+					top:0px;
+				}
+				#leftBox{
+					width: 150px;
+					height: 500px;
+					border-left: solid 2px;
+					border-top: solid 2px;
+					border-right: solid 2px;
+					border-bottom: solid 2px;
+					border-color: #c2c2a3;
+					margin-bottom: 10px;
+					margin-top: 30px;
+					position:sticky;
+					top:100px;
+				}
+				.user{
+					width: 150px;
+					height: 50px;
+					border-top: solid 2px;
+					border-color: gray;
+					background-color: #00ccff;
+					color: white;
+
+				}
+				#user1{
+					width: 150px;
+					height: 50px;
+					background-image: linear-gradient(-30deg, #003cb3,#00ccff);
+					color: white;
+					align: center;
+					border-top: solid 2px;
+					border-color: gray;
+
+				}
+				body{
+					margin: 0px;
+					padding: 0px;
+				}
+			.images{
+				width: 40px;
+				height: 50px;
+				margin:0 auto;
+				float:left;
+				border-radius: 32px;
+			}
+			#chatbox1{
+				width: 200px;
+				height: 300px;
+				border-left: solid 2px;
+				border-top: solid 2px;
+				border-right: solid 2px;
+				border-bottom: solid 2px;
+				border-color: #c2c2a3;
+				margin-bottom: 310px;
+				margin-top: 100px;
+				margin-left: 700px;
+				overflow-y: auto;
+
+			}
+			#chatbox2{
+				width: 200px;
+			height: 300px;
+				border-left: solid 2px;
+				border-top: solid 2px;
+				border-right: solid 2px;
+				border-bottom: solid 2px;
+				border-color: #c2c2a3;
+				margin-top: -614px;
+				margin-left: 910px;	
+				overflow-y: auto;
+			}
+			.text{
+				width: 200px;
+				hight:50px;
+				font-size: 14px;
+				color: white;
+				text-align: center;
+				background-image: linear-gradient(-30deg, #003cb3,#00ccff);
+				font-size: 18px;
+			}
+			p{
+				margin: 0;
+				padding: 8px;
+			}
+			#interface{	
+			overflow-y: visible;			
+			}
+			.input{
+				margin-top: 190px;
+				width: 200px;
+				hight:150px;
+				border:0px solid;
+			}
+
+			#message{
+				width:120px;
+				margin-left:5px; 
+			}
+			#SendButton{
+				background-image: linear-gradient(-30deg, #003cb3,#00ccff);
+				width: 30px;
+				height: 40;
+			}
+			#btn{
+				width: 50px;
+				height: 40px;
+				background-color:#0000ff;
+				color: white; 
+				margin-left:20px; 
+				font-weight: bold;
+				background-size: 40px 30px;
+				
+			}
+
+			input{
+				border: none;
+				margin:auto;
+			}
+			
+			
+			#bottomBar{
+				margin:0px auto;
+				color:white;
+				background-image: linear-gradient(-60deg, #003cb3,#00ccff);
+				text-align: center;
+				font-size: 30px;
+				padding: 4px;
+				margin-top: 100px;
+				position: fixed;
+				bottom: 10px;
+				width: 100%;
+				text-align: center;
+
+				
+
+
+
+
+
+			}
+			#align{
+				margin-left: 75px ;
+			}
+			#logo{
+				margin-top: 3px;
+				margin-left: 2px;
+				width: 40px;
+				height: 30px;
+			}
+			#title{
+				margin-top: -10px;
+				margin-bottom: 60px;
+				margin-left: 180px;
+				width: 1000px;
+				height: 2px;
+				font-weight: bold;
+
+			}
+			#reservedtext{
+				margin-top: 10px;
+				margin-bottom: 70px;
+				margin-left: -300px;
+				width: 1000px;
+				height: 15px;
+				 
+
+			}
+
+
+			#socialicons{
+				margin-top: -90px;
+				margin-left: 1150px;
+				width: 40px;
+				height: 25px;
+				margin-bottom: 20px;
+				padding-bottom: 8px;
+
+
+			}
+
+			#text{
+				font-size: 20px;
+				align: center;
+			}
+			#seen{
+				margin-right: 3px;
+
+		</style>	
+	</head>
+<body>
+	<div id="topbar">
+		<div id="logo">
+			<img width="90px" height="90px" src="chat.png">
+		</div>
+		<div id="title">
+		<p>Online Chat Service</p>
+		</div>
+	</div>
+	<div id=interface>
+		<div id="leftBox">
+			<div class="user"><img class="images" src="my.jpg"><p align="center">Kashif Ali</p></div>
+			<div id="user1"><img class="images" src="my1.jpg"><p align="center" color="white">Irfan Ali</p></div>
+			<div class="user"><img class="images" src="my2.jpg"><p pading=8px; align="center">Dani</div>
+			<div class="user"><img class="images" src="my3.jpg"><p pading=8px; align="center">Ubaid</div>	
+					<div id="chatbox1"><div class="text"><p>Irfan ALi</p></div>
+						<div><p>Hello babay......</p><img id="seen" src="seen.png" width="15px" height="15px" align="right"></div>
+							<div class="input"><hr><input type="text" id="message" placeholder="Enter Your Message" border="none"> <input id="btn" type="submit" value="Send"></div>
+					</div>
+					<div id="chatbox2"><div class="text"><p>Kashif Ali</p></div>
+						<div><p id="align">Hello babay......</p>
+						</div>
+						<div class="input"><hr><input type="text" id="message" placeholder="Enter Your Message" border="none"> <input id="btn" type="submit" value="Send"></div>
+					</div>
+		
+		</div>
+	</div>
+	<div id="Bottombar">
+		
+		<div id="reservedtext">
+		<p id="text">All copyrights <sup>&copy;</sup> are reserved 2018</p>
+		</div>
+		<div id="socialicons">
+			<img width="150px" height="50px" src="Socialicons.png">
+		</div>
+	</div>
+</body>
+
+</html>
